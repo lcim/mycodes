@@ -3,9 +3,9 @@ README.md: guessinggame.sh
 	echo "" >> README.md
 	date >> README.md
 	echo "" >> README.md
-	wc -l guessinggame.sh |  egrep -o "[0-9]+" >> README.md
-	echo ""	
-	echo "To see my page, [click on the the link](https://lcim.github.io/mycodes/)" >> README.md
+	wc -l guessinggame.sh |  egrep -o "[0-9]+" >> README.md && echo -n " "
+	echo -e " "	
+	echo -e "To see my page, [click on the this link](https://lcim.github.io/mycodes/) \n" >> README.md
 clean:
 	rm README.md
 
