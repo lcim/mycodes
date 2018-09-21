@@ -1,5 +1,5 @@
-# Peer-graded Assignment: Bash, Make, Git, and GitHub 
+# Peer\-graded Assignment: Bash, Make, Git, and GitHub 
 
-Fri Sep 21 19:58:57 WAT 2018
+Fri Sep 21 20:48:22 WAT 2018
 
-28
+27
