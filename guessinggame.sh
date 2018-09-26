@@ -2,9 +2,8 @@
 # fle: guessinggame.sh
 
 echo "How many files are in my folder? Guess please!!!"
-ans=$(ls -f . | wc -l)
-#echo $ans
-#ans2=$(find . -type f -maxdepth 1 | wc -l)
+ans=$(ls -A . | wc -l)
+#ans=$(find . -maxdepth 1 -type f | wc -l)
 
 guessgame () {
 	read guess
@@ -13,7 +12,7 @@ guessgame () {
 	do
 		if [[ $guess -eq $ans ]]
 		then
-			i=$(expr 1 + $guess)
+			i=$((1 + guess))
 			echo ""
 			 echo "Congratulations! You guessed right."
 			echo ""
