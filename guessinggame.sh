@@ -2,6 +2,7 @@
 # fle: guessinggame.sh
 
 echo "How many files are in my folder? Guess please!!!"
+
 ans=$(ls -A . | wc -l)
 #ans=$(find . -maxdepth 1 -type f | wc -l)
 
