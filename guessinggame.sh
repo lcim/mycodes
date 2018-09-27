@@ -9,6 +9,7 @@ ans=$(ls -A . | wc -l)
 guessgame () {
 	read guess
 	i=0
+
 	while [[ $i -le $guess ]]
 	do
 		if [[ $guess -eq $ans ]]
